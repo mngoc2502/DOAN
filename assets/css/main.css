@@ -15,6 +15,7 @@
 }
 
 .navbar-list{
+    padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
     color: #fff;
@@ -31,17 +32,26 @@
 }
 
 .subnav{
-    width: 100px;
-    color: black;
+    background-color: #1a66ff;
+    width: 150px;
+    color: #fff;
     display: none;
     position: absolute;
     top: 50px;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 .subnav-item{
+
     list-style: none;
 }
 .subnav-item:hover{
     background-color: rgba(0,0,0,0.5);
+}
+.container{
+    width: 100vw;
+    height:105vh;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/7qYc6jWRZSx5cwCNEw85xj.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
 }
