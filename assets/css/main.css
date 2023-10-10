@@ -41,7 +41,22 @@
 
 .subnav-item{
     list-style: none;
+    position: relative;
+}
+.subnav-item-item{
+    display: none;
+    list-style: none;
+    border: 2px solid black;
+    position: absolute;
+    right: -76px;
+    top:-2px
+}
+.subnav-child:hover{
+    background-color: rgba(0,0,0,0.5);
 }
 .subnav-item:hover{
     background-color: rgba(0,0,0,0.5);
+    .subnav-item-item{
+        display: block;
+    }
 }
