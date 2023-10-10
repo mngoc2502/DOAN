@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,7 +15,8 @@
 }
 
 .navbar-list{
-    font-size: 25px;
+    padding-right: 10px;
+    font-size: 15px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -26,7 +31,7 @@
 }
 
 .subnav{
-    width: 100%;
+    width: 100px;
     color: black;
     display: none;
     position: absolute;
@@ -34,6 +39,9 @@
     border: 2px solid #000;
 }
 
-.navbar-item{
+.subnav-item{
     list-style: none;
+}
+.subnav-item:hover{
+    background-color: rgba(0,0,0,0.5);
 }
