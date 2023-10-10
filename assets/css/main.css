@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000ff;
+    height: 50px;
+}
+
+.navbar-left{
+    display: flex;
+    position: relative;
+}
+
+.navbar-list{
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.navbar-list:hover{
+    background-color:  #99c2ff;
+    .subnav{
+        display: block;
+    }
+}
+
+.subnav{
+    width: 100%;
+    color: black;
+    display: none;
+    position: absolute;
+    top: 50px;
+    border: 2px solid #000;
+}
+
+.navbar-item{
+    list-style: none;
+}
