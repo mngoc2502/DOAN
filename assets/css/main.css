@@ -42,16 +42,26 @@
 }
 
 .subnav-item{
-
+    right:11px;
     list-style: none;
+    position: relative;
+}
+.subnav-item-item{
+    color: white;
+    background-color:  #4d88ff;
+    display: none;
+    list-style: none;
+    /* border: 2px solid black; */
+    position: absolute;
+    right: -76px;
+    top:-2px
+}
+.subnav-child:hover{
+    background-color: rgba(0,0,0,0.5);
 }
 .subnav-item:hover{
     background-color: rgba(0,0,0,0.5);
-}
-.container{
-    width: 100vw;
-    height:105vh;
-    background-image: url('https://cdn.mos.cms.futurecdn.net/7qYc6jWRZSx5cwCNEw85xj.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
+    .subnav-item-item{
+        display: block;
+    }
 }
